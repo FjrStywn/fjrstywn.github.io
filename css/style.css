@@ -99,6 +99,7 @@ a{
     background: inherit;
     padding: 5px 15px;
     border: 1px solid white;
+    margin-top: 10px;
     color: white;
     border-radius: 3px;
     cursor: pointer;
