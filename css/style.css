@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+::-webkit-scrollbar{
+    background: transparent;
+    display: none;
+}
+body{
+    background-color: lightseagreen;
+    font-family:monospace;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: white;
+    margin-left: 30px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:black;
+
+}
+.navbar ul{
+    margin-right: 30px;
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+
+}
+.navbar a{
+    color: white;
+    padding: 10px;
+  
+}
+.navbar a:hover{
+    background-color: teal;
+    border-radius: 6px;
+}
+.jumbotron{
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-position-y: -130px;
+    
+    width: 100%;
+    height: 638px;
+    
+  
+}
+.jumbotron-container{
+  
+    
+}
+.jumbotron-tagline{
+    text-align: center;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.jumbotron-tagline h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.jumbotron-tagline p{
+    color:#ddd;
+    margin-top: 5px;
+    font-weight: 800;
+
+}
+.btn{
+    background: inherit;
+    padding: 5px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.about{
+    width: 100%;;
+    height: 638px;
+    background-color: cadetblue;
+   
+}
+.me{
+    color: white;
+}
+.tag{
+    padding: 80px;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-card{
+    height: 360px;
+    width: 220px;
+    background-color: lightskyblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px black;
+   
+}
+.about-card h3{
+    margin-top: 10px;
+}
+.about-card p{
+   padding: 10px;
+   
+}
+.about-card span{
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.cntc{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 20px;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+.cntc:hover{
+    opacity: 0.7;
+}
+.about-teks{
+    width: 800px;
+    background-color: lightseagreen;
+    text-align: justify;
+    padding: 20px;
+    line-height: 18px;
+    box-shadow: 1px 0px 5px black;
+}
+
+.portfolio{
+    width: 100%;
+    height:638px;
+    background-color: turquoise;
+}
+.portfolio-item img{
+    cursor: pointer;
+}
+.portfolio-item img:hover{
+    filter: opacity(0.7);}
+.portfolio-item{
+    width:300px ;
+    height: 300px;
+    background-color:gray;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 1px 1px 5px black;
+  
+}
+.portfolio-item h3{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.portfolio-item p{
+    padding: 10px 
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.contact{
+    width: 100%;
+    height: 638px;
+    background-color: mediumslateblue;
+}
+.form{
+    
+}
+.input{
+    width: 100%;
+    display: block;
+}
+.form{
+    display: block;
+    width: 100%;
+
+}
+.contact-page{
+    margin: 0px auto;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    background-color: dimgrey ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 1px 1px 5px black;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    background-blend-mode: inherit;
+}
+#name{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    margin-top: 25px;
+}
+#email{
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+#msg{
+    margin: 10px 0px;
+    padding: 25px 0px;
+}
+::placeholder{
+    text-transform: uppercase;
+    color: white;
+    background:transparent;
+}
+
+.cntc2{
+    width: 25%;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    background-color:transparent;
+    border: 1px solid wheat;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+.cntc2:hover{
+  
+    background-color: teal;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: black ;
+    color: wheat;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+.copyright h3{
+    margin: auto;
+    letter-spacing: 5px;
+}
+
